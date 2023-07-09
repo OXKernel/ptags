@@ -59,8 +59,8 @@ https://programmingpot.com/php-programming/list-of-php-keywords/
 
 # Tag file format:
 
-## tagname<tab>file<tab>lineno
-## tagname<tab>file<tab>/pattern/ \# --> (This is the one we actually use) <--
+## tagname\<tab\>file\<tab\>lineno
+## tagname\<tab\>file\<tab\>/pattern/ \# --> (This is the one we actually use) <--
 
 # Add generated tag file to VIM using:
 
