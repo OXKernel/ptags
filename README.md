@@ -1,6 +1,9 @@
 # ptags
 Perl tags generator for VIM
 
+# Usage
+ptags.pl path tags_file [--exclude pattern] [--lang] (where lang is --C, --Java, --Python, --JS, --Perl, --Ruby, --Kotlin, --Go, --CS, --Swift, --PHP)
+
 # REFERENCES
 
 https://perlmaven.com/traversing-a-directory-tree-finding-required-files
