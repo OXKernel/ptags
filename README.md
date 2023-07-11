@@ -4,62 +4,6 @@ Perl tags generator for VIM
 # Usage
 ptags.pl path tags_file [--exclude pattern] [--lang] (where lang is --C, --Java, --Python, --JS, --Perl, --Ruby, --Kotlin, --Go, --CS, --Swift, --PHP)
 
-# REFERENCES
-
-https://perlmaven.com/traversing-a-directory-tree-finding-required-files
-
-https://www.perl.com/article/21/2013/4/21/Read-an-entire-file-into-a-string
-
-https://perldoc.perl.org/Cwd.html
-
-https://fresh2refresh.com/c-programming/c-tokens-identifiers-keywords
-
-https://rosettacode.org/wiki/Special\_characters
-
-https://stackoverflow.com/questions/850907/regular-expression-opposite
-
-https://perldoc.perl.org/perlrequick.html
-
-https://stackoverflow.com/questions/14699822/perl-exact-string-match
-
-https://stackoverflow.com/questions/25391079/perl-search-for-string-and-get-the-full-line-from-text-file
-
-https://metacpan.org/pod/distribution/Regexp-Common/lib/Regexp/Common/comment.pm
-
-https://en.cppreference.com/w/cpp/keyword
-
-https://stackoverflow.com/questions/13479198/sort-2nd-field-descending-from-text-file-perl
-
-https://perldoc.perl.org/functions/sort.html
-
-https://perldoc.perl.org/functions/exists.html
-
-https://www.tutorialspoint.com/perl/perl\_regular\_expressions.htm
-
-# LANGUAGE REFERENCES
-
-https://www.w3schools.in/python-tutorial/keywords/
-
-https://www.w3schools.in/javascript-tutorial/keywords/
-
-https://learn.perl.org/docs/keywords.html
-
-https://www.ruby-forum.com/t/listing-ruby-keywords/55731/2
-
-https://corlewsolutions.com/articles/article-7-finding-reserved-words-or-keywords-in-ruby
-
-https://beginnersbook.com/2017/12/kotlin-keywords-identifiers/
-
-https://www.geeksforgeeks.org/go-keywords/
-
-https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/
-
-https://www.tutorialkart.com/swift-tutorial/swift-keywords/
-
-https://www.php.net/manual/en/reserved.keywords.php
-
-https://programmingpot.com/php-programming/list-of-php-keywords/
-
 # Tag file format:
 
 ## tagname\<tab\>file\<tab\>lineno
