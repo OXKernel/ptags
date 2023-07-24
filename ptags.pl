@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 #
+# Copyright (C) 2023. Roger Doss. All Rights Reserved.
+# Provided under MIT License.
+#
 # REFERENCES
 #
 # https://perlmaven.com/traversing-a-directory-tree-finding-required-files
