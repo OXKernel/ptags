@@ -38,3 +38,7 @@ tag files symbols of different languages.
 
 ## Can also give number like :5tag
 
+# Author
+Roger Doss
+
+opensource [at] rdoss [dot] com
