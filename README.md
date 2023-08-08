@@ -6,13 +6,13 @@ ptags.pl path tags_file [--exclude pattern] [--lang] (where lang is --C, --Java,
 
 # Tag file format:
 
-## tagname\<tab\>file\<tab\>lineno
-## tagname\<tab\>file\<tab\>/pattern/ \# --> (This is the one we actually use) <--
+tagname\<tab\>file\<tab\>lineno
+tagname\<tab\>file\<tab\>/pattern/ \# --> (This is the one we actually use) <--
 
 # Add generated tag file to VIM using:
 
-## :set tags=tags\_file \# set the tags file
-## :set tags+=tags\_file \# append to list of existing tags
+:set tags=tags\_file \# set the tags file
+:set tags+=tags\_file \# append to list of existing tags
 
 # Current languages supported:
 
@@ -30,13 +30,17 @@ tag files symbols of different languages.
 
 # Tags use in VIM:
 
-## Ctrl ] (jump to tag) if more than one match, type in number for selecting from 
-##        multiple matches
-## Ctrl T return back to previous tag
-## :pop previous
-## :tag go back to tag match
+## Ctrl ] 
+(jump to tag) if more than one match, type in number for selecting from multiple matches
 
-## Can also give number like :5tag
+## Ctrl T 
+return back to previous tag
+
+## :pop previous
+
+## :tag 
+go back to tag match
+Can also give number like :5tag
 
 # Author
 Roger Doss
