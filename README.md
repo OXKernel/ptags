@@ -11,6 +11,7 @@ tagname\<tab\>file\<tab\>/pattern/
 # Add generated tag file to VIM using:
 
 :set tags=tags\_file \# set the tags file
+
 :set tags+=tags\_file \# append to list of existing tags
 
 # Current languages supported:
