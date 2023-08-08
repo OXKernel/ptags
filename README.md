@@ -6,7 +6,7 @@ ptags.pl path tags_file [--exclude pattern] [--lang] (where lang is --C, --Java,
 
 # Tag file format:
 
-tagname\<tab\>file\<tab\>/pattern/ \
+tagname\<tab\>file\<tab\>/pattern/
 
 # Add generated tag file to VIM using:
 
